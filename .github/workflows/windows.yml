@@ -11,6 +11,8 @@ on:
       - '*.pro'
       - '**'
       - '.github/workflows/windows.yml' 
+  workflow_dispatch:
+  
 jobs:
   build:
     name: Build
